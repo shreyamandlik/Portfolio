@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1><span style="color:#7E1717">R</span>itvik</h1>
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#services">Services</a></li>
+                    <li> <a href="#portfolio">Portfolio</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                    <i class="bi bi-x-circle" onclick="closemenu()"></i>
+                </ul>
+                <i class="bi bi-list" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+
+                <span  style="color:#7E1717 ;text-decoration:underline" id="element"></span>
+                <h1>Hi, I'm Ritvik Warade</h1>
+
+            </div>
+        </div>
+    </div>
+
+    <!---------- about-------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="/img/illu.jpeg" alt="">
+                </div>
+                <div class="about-col2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>As a growth-oriented graphic designer, my journey is an ever-evolving one, marked by a commitment
+                        to honing my skills and exploring new horizons in the realm of design. I am eager to leverage my
+                        passion for creativity and unwavering dedication to growth to make a meaningful impact in the
+                        design industry and exceed the expectations of my clients and colleagues alike</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link " onclick="opentab('skills',this)"> Skills</p>
+                        <p class="tab-links" onclick="opentab('experience',this)"> Experience</p>
+                        <p class="tab-links" onclick="opentab('eduation',this)"> Eduation</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul >
+                            <li style="list-style-type:square;"> Photoshop  -  4/5</li>
+                            <li style="list-style-type:square; ">After Effects</li>
+                            <li style="list-style-type:square;">Illustrator</li>
+                            <li style="list-style-type:square;">Premier Pro</li>
+                            <li style="list-style-type:square;">Midjourney AI</li>
+                            <li style="list-style-type:square;">Indesign</li>
+                            <li style="list-style-type:square;">Word</li>
+                            <li style="list-style-type:square;">Power point</li>
+    
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span style="font-size: 25px; color: #7E1717;">Graphics
+                                    Designer</span></br><span>Present - Good old delight</span></br>I am currently
+                                working as a Graphic Designer at a GOD, where I handle various responsibilities
+                                including creating monthly creatives for clients' social media handles, updating
+                                brochures, hoardings, and standees, lead generation activities, as well as designing
+                                advertisements of various sizes, among other tasks. I have been working in this position
+                                for the past 7 months</li> </br>
+                            <li><span style="font-size: 25px; color: #7E1717;">Full-Stack Content Creator and
+                                    a MAths Teacher</span></br><span>2022-2023 - PCM Tutorial/Dombivli</span></br>I
+                                worked at PCM Tutorials as a full-stack designer and video editor for their YouTube
+                                channel, 'pemtutorialsonline.' During my time at PCM Tutorials, I had a 12-hour shift.
+                                For the first 6 hours, I taught students of 8th, 9th, and 10th CBSE classes. After
+                                completing my teaching responsibilities, I dedicated the remaining 6 hours to my design
+                                work.</li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents " id="eduation">
+                        <ul>
+                            <li><span style="font-size: 25px; color:#7E1717;"> Bachelor In Computer Engineering</span></br><span>Mumbai University</span></br> 2019-2023</li></br>
+                            <li><span style="font-size: 25px; color: #7E1717;">Higher Secondary Certificate(12th) </span></br><span>Mumbai University</span></br> 2017-2019</li><br>
+                            <li><span style="font-size: 25px; color: #7E1717;">Secondary School Certificate (10th)</span></br> <span>Mumbai University</span></br> 2017</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------services-------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="bi bi-palette-fill"></i>
+                    <h2>Graphic Designer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At explicabo perspiciatis repellendus
+                        vel beatae!</p>
+                    
+                </div>
+                <div>
+                    <i class="bi bi-intersect"></i>
+                    <h2>web Designer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At explicabo perspiciatis repellendus
+                        vel beatae!</p>
+                    
+                </div>
+                <div>
+                    <i class="bi bi-crop"></i>
+                    <h2>ui/ux Designer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At explicabo perspiciatis repellendus
+                        vel beatae!</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------Portfolio------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle"> My Work </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/img/d1.jpeg" alt="" srcset="">
+                    <img src="/img/d2.jpeg" alt="" srcset="">
+                    <img src="/img/d3.jpeg" alt="" srcset="">
+                    <img src="/img/d4.jpeg" alt="" srcset="">
+                    <img src="/img/d5.jpeg" alt="" srcset="">
+                    <img src="/img/d2.jpeg" alt="" srcset="">
+                    
+                </div>
+                
+                
+            </div>
+            <a href="#" class="btn"> See More</a>
+        </div>
+    </div>
+    <!--------------Contact------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="bi bi-envelope"></i>rnwarade@gmail.com</p>
+                    <p><i class="bi bi-telephone"></i>1234567890</p>
+                    <div class="social-icons">
+                        <a href=""><i class="bi bi-instagram"></i></a>
+                        <a href=""><i class="bi bi-linkedin"></i></a>
+                    </div>
+                    <a href="/img/RESUME.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"> </span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="portfolio.js"></script>
+</body>
+
+</html>
+
+
+<!--
+    Download resume src
+    js spreadsheet src
+    form name=submit-to-google
+
+-->
